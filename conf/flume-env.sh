@@ -29,12 +29,3 @@ export JAVA_OPTS="-Dfs.s3n.awsAccessKeyId=AKIAJJI6FVVEQLPDT3TQ -Dfs.s3n.awsSecre
 
 # Note that the Flume conf directory is always included in the classpath.
 #FLUME_CLASSPATH=""
-
-HADOOP_HOME=/opt/hadoop-2.6.4
-HADOOP_AWS=/opt/hadoop-aws/hadoop-aws-2.7.2.jar
-HADOOP_AWS_SDK=/opt/hadoop-aws/aws-java-sdk-1.11.3.jar
-HADOOP_AWS_SDK_CORE=/opt/hadoop-aws/aws-java-sdk-core-1.11.3.jar
-HADOOP_AWS_SDK_S3=/opt/hadoop-aws/aws-java-sdk-s3-1.11.3.jar
-HADOOP_AWS_SDK_KMS=/opt/hadoop-aws/aws-java-sdk-kms-1.11.3.jar
-
-FLUME_CLASSPATH="$HADOOP_AWS:$HADOOP_AWS_SDK:$HADOOP_AWS_SDK_CORE:$HADOOP_AWS_SDK_S3:$HADOOP_AWS_SDK_KMS:$HADOOP_HOME/share/hadoop/hdfs/hadoop-hdfs-2.6.4.jar"

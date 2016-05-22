@@ -1,1 +1,1 @@
-IMAGE_NAME=gersr/flume:v1
+IMAGE_NAME=dominofire/flume:v3

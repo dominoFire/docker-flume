@@ -34,6 +34,7 @@ ENV FLUME_HOME /opt/apache-flume
 ENV HADOOP_HOME /opt/apache-hadoop
 ENV MVN_HOME /opt/apache-maven
 ENV PATH $PATH:$JAVA_HOME/bin:$FLUME_HOME/bin:$HADOOP_HOME/bin:$MVN_HOME/bin
+ENV FLUME_CONF_FILE http.conf
 
 ## Descargamos Java 8
 RUN curl -sL --retry 3 --insecure \

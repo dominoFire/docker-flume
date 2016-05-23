@@ -1,1 +1,1 @@
-IMAGE_NAME=dominofire/flume:v3
+IMAGE_NAME=dominofire/flume:v4
